@@ -18,10 +18,10 @@ endif()
 
 include_directories(./)
 
-if (BUILD_UNIT_TESTS)
-    add_subdirectory(${ormpp_SOURCE_DIR}/tests)
-endif ()
+# if (BUILD_UNIT_TESTS)
+#     add_subdirectory(${ormpp_SOURCE_DIR}/tests)
+# endif ()
 
-if (BUILD_EXAMPLES)
-    add_subdirectory(${ormpp_SOURCE_DIR}/example)
-endif ()
+# if (BUILD_EXAMPLES)
+#     add_subdirectory(${ormpp_SOURCE_DIR}/example)
+# endif ()

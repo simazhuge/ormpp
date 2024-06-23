@@ -16,6 +16,7 @@
 #include <type_traits>
 #include <variant>
 #include <vector>
+#include <algorithm>
 
 #include "detail/string_stream.hpp"
 #include "detail/traits.hpp"
